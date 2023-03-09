@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 from backbones.backbone_builder import BackboneBuilder
-from attention_aggregator import AttentionAggregator
+from attention import AttentionAggregator
 
 class ClinicalOnly(nn.Module):
     """Training with clinical only"""
