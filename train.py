@@ -2,7 +2,7 @@ import torch
 import argparse
 import os
 from torch.utils.tensorboard import SummaryWriter
-from models.mil_net import MILNetImageOnly, MILNetWithClinicalData, MILNetImageOnly_
+from models.models import MILNetImageOnly, MILNetWithClinicalData, MILNetImageOnly_
 from models.backbones.backbone_builder import BACKBONES
 from utils.utils import *
 from utils.recorder import Recoder
