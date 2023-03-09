@@ -2,10 +2,10 @@ import torch
 import argparse
 import os
 from torch.utils.tensorboard import SummaryWriter
-from models.models import MILNetImageOnly, MILNetWithClinicalData, MILNetImageOnly_
-from models.backbones.backbone_builder import BACKBONES
-from utils.utils import *
-from utils.recorder import Recoder
+from models import MILNetImageOnly, MILNetWithClinicalData, MILNetImageOnly_
+from backbones import BACKBONES
+from train_test import *
+from recorder import Recoder
 from datset import BreastDataset
 import random
 import warnings
